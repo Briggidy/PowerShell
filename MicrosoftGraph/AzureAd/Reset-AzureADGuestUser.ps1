@@ -28,7 +28,7 @@ $error.Clear()
 Import-Module Microsoft.Graph.Identity.SignIns
 
 <#
-    App Principal Permissions Required, must have any one permission for each of the three cmdlets.
+    App Principal Permissions Required, must have any one permission for each of the two cmdlets.
     
     
     Get-MgUser        == User.Read, User.ReadWrite, User.ReadBasic.All, User.Read.All, User.ReadWrite.All, Directory.Read.All, Directory.ReadWrite.All
