@@ -34,8 +34,8 @@ $ErrorDataTable = New-Object System.Data.DataTable
 [void]$ErrorDataTable.Columns.Add("Reason")
 [void]$ErrorDataTable.Columns.Add("ManualRetryCmd")
 
-Import-Module -Name Microsoft.Graph.Groups
-Import-Module -Name Microsoft.Graph.Users
+Import-Module Microsoft.Graph.Groups
+Import-Module Microsoft.Graph.Users
 
 <#
     App Principal Permissions Required, must have any one permission for each of the three cmdlets.
